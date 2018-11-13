@@ -1,0 +1,30 @@
+{
+  "name": "mern-tasks",
+  "version": "1.0.0",
+  "description": "administrador de tareas",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "webpack": "webpack --mode development --watch"
+  },
+  "author": "Ing.Carlos Crespo",
+  "license": "MIT",
+  "dependencies": {
+    "babel-loader": "^8.0.4",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.10",
+    "morgan": "^1.9.1",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.5",
+    "@babel/preset-env": "^7.1.5",
+    "@babel/preset-react": "^7.0.0",
+    "nodemon": "^1.18.6",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
